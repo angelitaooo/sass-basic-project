@@ -1,0 +1,27 @@
+
+
+
+/* Media Queries -------------------- */
+
+@media (max-width: 1024px) {
+  .primary-content,
+  .secondary-content {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .primary-content,
+  .secondary-content {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
+  }
+
+  .resorts,
+  .tips {
+    float: none;
+    width: 100%;
+  }
+}
